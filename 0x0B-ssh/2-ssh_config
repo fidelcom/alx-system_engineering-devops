@@ -1,0 +1,10 @@
+# SSH client configuration to use the private key ~/.ssh/school
+# SSH client configuration to refuse to authenticate using a password
+
+# SSH Config File
+#
+Host 516400-web-01
+	Hostname 23.23.75.246
+	User ubuntu
+	PasswordAuthentication no
+	IdentityFile ~/.ssh/school
